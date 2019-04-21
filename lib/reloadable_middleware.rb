@@ -1,5 +1,4 @@
 require_relative "reloadable_middleware/version"
-require_relative 'reloadable_middleware/railtie' if defined?(Rails)
 
 module ReloadableMiddleware
   # Base class for the reloadable middleware. We need to save
